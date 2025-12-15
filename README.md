@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : GARCIA
+- PRÉNOM : Lucie
+- GROUPE : A1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/nDBfJ03oLSGufHNWSqNOJS/Maquettes-projet-individuel-%E2%80%94--Lucie-Garcia?node-id=3702-422&t=bLkQArWr9Twy7R17-1 
