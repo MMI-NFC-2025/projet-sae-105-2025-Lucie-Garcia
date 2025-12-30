@@ -1,6 +1,15 @@
+/*normalize*/
 @import "vendors/normalize.css";
+
+/*utils*/
 @import "utils/variables.css";
+
+/*base*/
 @import "base/main.css";
 @import "base/media.css";
+
+/*layout*/
 @import "layout/footer.css";
 @import "layout/header.css";
+
+/*components*/
