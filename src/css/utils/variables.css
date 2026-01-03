@@ -1,0 +1,26 @@
+/* Variable collection */
+:root {
+    /* Mode 1 */
+    /* color */
+    --colors-blanc: #ffffff;
+    --colors-bleu: #4a5aa6;
+    --colors-bleu-clair: #98a5df;
+    --colors-bleu-fonce: #2e386f;
+    --colors-gris-blanc: #f0f0f0;
+    --colors-noir: #000000;
+    --colors-rose: #ffc1bd;
+    --colors-rose-rouge: #eb776f;
+    --colors-rouge: #ca2b20;
+    /* number */
+    --sizes-petits-textes: 0.625rem;
+    --sizes-petits-textes-gras: 0.6875rem;
+    --sizes-textes: 0.9375rem;
+    --sizes-descriptions: 1.25rem;
+    --sizes-gras: 1.5rem;
+    --sizes-sous-titres: 2.25rem;
+    --sizes-titres: 3rem;
+    --sizes-grands-titres: 6rem;
+    /* string */
+    --fonts-montserrat: Montserrat;
+    --fonts-oswald: Oswald;
+}
