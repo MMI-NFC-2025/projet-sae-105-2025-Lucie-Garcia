@@ -1,0 +1,9 @@
+body {
+    font-family: var(--fonts-oswald);
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+}

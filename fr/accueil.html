@@ -5,14 +5,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil FR</title>
+    <meta name="description" content="page d'accueil" />
+    <title>Étoile oubliée - Accueil FR</title>
+
+    <!-- links to other files -->
+
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/png" href="/assets/favicon-EO/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-EO/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon-EO/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-EO/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicon-EO/site.webmanifest" />
+
 </head>
 
 <body>
-    <a href="../en/home.html" onclick="document.cookie = `nf_lang=en; path=/; SameSite=Strict`">EN</a>
-    <h1>Accueil en Français</h1>
-    <a href="./article1fr.html">Autre contenu</a>
+    <header class="header">
+        <div class="header__bar">
+            <a href="../fr/accueil.html" class="header__logo-link">
+                <img class="header__logo" src="/assets/icons/Logo-Blanc.svg" alt="logo Étoile oubliée">
+            </a>
+            <div class="header__btn">
+                <button class="header__search-btn search-btn" aria-label="search" aria-expanded="false"
+                    aria-controls="searchForm">
+                    <img class="search-btn__icon" src="/assets/icons/loupe.svg"></span>
+                </button>
+                <button class="header__language-btn language-btn" aria-label="language" aria-expanded="false"
+                    aria-controls="languageMenu">
+                    <img class="language-btn__icon" src="/assets/icons/globe.svg"></span>
+
+                </button>
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
+                    aria-controls="mainNav">
+                    <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__main-list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article1fr.html">Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article2fr.html">Les femmes de science dans la littérature</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article3fr.html">Les prouesses de Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article4fr.html">Les figures de l’ombre</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article5fr.html">L’objet de la BU</a>
+                </li>
+            </ul>
+            <ul class="menu__secondary-list">
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/projets.html">Autres projets</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/glossaire.html">Glossaire</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/apropos.html">À propos</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/contactfr.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__search search" id="searchForm" hidden>
+            <form class="search__form" action="#" method="get">
+                <label class="search__label" for="search-input">Rechercher :</label>
+                <input class="search__input" type="text" id="search-input" name="q" placeholder="Tapez vos mots-clés">
+                <button class="search__submit-btn" type="submit">Rechercher</button>
+            </form>
+
+        </div>
+        <div class="header__language language" id="languageMenu" hidden>
+            <ul class="language__list">
+                <li class="language__item">
+                    <a class="language__link" href="../en/home.html"
+                        onclick="document.cookie = `nf_lang=en; path=/; SameSite=Strict`">English</a>
+                </li>
+                <li class="language__item">
+                    <a class="language__link" href="../fr/accueil.html"
+                        onclick="document.cookie = `nf_lang=fr; path=/; SameSite=Strict`">Français</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </header>
+
 </body>
 
 </html>
