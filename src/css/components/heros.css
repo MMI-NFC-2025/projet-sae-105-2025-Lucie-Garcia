@@ -1,0 +1,23 @@
+.hero {
+    background: url(/assets/img/hero_home.avif) no-repeat center;
+    background-size: cover;
+    height: 543px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero__title {
+    position: relative;
+    margin: 1rem;
+    top: 300px;
+
+}
+
+.arrow__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+}
