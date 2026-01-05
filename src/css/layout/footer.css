@@ -3,3 +3,97 @@
     color: var(--colors-blanc);
     padding: 1rem;
 }
+
+.footer__titles {
+    color: var(--colors-blanc);
+}
+
+.footer__text {
+    font-size: var(--sizes-petits-textes);
+    color: var(--colors-blanc);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__mail-link {
+    text-decoration: underline;
+    font-family: var(--fonts-montserrat);
+    font-size: var(--sizes-petits-textes);
+    color: var(--colors-blanc);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__social-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.footer__nav-list {
+    list-style: none;
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
+.footer__nav-item a {
+    text-decoration: none;
+    font-size: var(--sizes-petits-textes-gras);
+    font-family: var(--fonts-montserrat);
+    color: var(--colors-blanc);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer__nav-divider {
+    font-size: var(--sizes-petits-textes-gras);
+    font-family: var(--fonts-montserrat);
+    color: var(--colors-blanc);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__legal-mentions__text {
+    font-size: var(--sizes-petits-textes);
+    font-family: var(--fonts-montserrat);
+    color: var(--colors-blanc);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__legal-mentions__link {
+    text-decoration: underline;
+    font-size: var(--sizes-petits-textes);
+    font-family: var(--fonts-montserrat);
+    color: var(--colors-blanc);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__legal-mentions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.footer__legal-mentions__logo {
+    width: 8rem;
+    height: 3.6875rem;
+
+}

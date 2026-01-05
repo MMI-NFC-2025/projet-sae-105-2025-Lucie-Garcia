@@ -11,7 +11,10 @@
 /*layout*/
 @import "layout/footer.css";
 @import "layout/header.css";
+@import "layout/section.css";
 
 /*components*/
 @import "components/boutons.css";
 @import "components/heros.css";
+@import "components/pages-cards.css";
+@import "components/menu.css";
