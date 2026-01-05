@@ -29,13 +29,28 @@ if (btnsearch && navsearch) {
 
 const btnlanguage = document.querySelector(".language-btn");
 const navlanguage = document.querySelector(".language");
+const langList = document.querySelector(".language__list");
 
 if (btnlanguage && navlanguage) {
-    btnlanguage.addEventListener("click", () => {
+    btnlanguage.addEventListener("click", (e) => {
+        e.stopPropagation();
         const isOpen = btnlanguage.ariaExpanded === "true";
         const isClosed = !isOpen;
 
         btnlanguage.ariaExpanded = isClosed;
         navlanguage.hidden = isOpen;
     });
+
+    // Fermer le menu language quand on clique en dehors
+    navlanguage.addEventListener("click", () => {
+        btnlanguage.ariaExpanded = false;
+        navlanguage.hidden = true;
+    });
+
+    // Empêcher la fermeture quand on clique sur la liste elle-même
+    if (langList) {
+        langList.addEventListener("click", (e) => {
+            e.stopPropagation();
+        });
+    }
 }

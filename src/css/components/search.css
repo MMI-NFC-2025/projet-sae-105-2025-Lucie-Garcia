@@ -1,0 +1,33 @@
+.search {
+    position: relative;
+    z-index: 51;
+    background-color: var(--colors-blanc);
+}
+
+.search__form {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.search__input {
+    flex: 1;
+    padding: 0.5rem;
+    font-family: var(--fonts-montserrat);
+    border: none;
+
+}
+
+.search__submit-btn {
+    background-color: var(--colors-rose-rouge);
+    color: var(--colors-blanc);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: var(--fonts-montserrat);
+    font-size: var(--sizes-descriptions);
+    font-weight: 600;
+}
