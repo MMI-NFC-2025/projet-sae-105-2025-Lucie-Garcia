@@ -1,0 +1,91 @@
+.frise-item {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin: 2rem 0;
+    overflow: hidden;
+    max-width: 298px;
+    min-height: 178px;
+}
+
+.frise-item--rose {
+    flex-direction: row;
+    background-color: var(--colors-rose);
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+}
+
+.frise-item--bleu {
+    flex-direction: row-reverse;
+    background-color: var(--colors-bleu-clair);
+    margin-left: auto;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+
+}
+
+.frise-text {
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.frise-text--bleu {
+    text-align: right;
+}
+
+.frise-image {
+    width: 148px;
+    height: 178px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 0;
+}
+
+.frise-item--rose .frise-image {
+    border-radius: 20px 0 0 20px;
+}
+
+.frise-item--bleu .frise-image {
+    border-radius: 0 20px 20px 0;
+}
+
+
+.frise-title {
+    margin: 0;
+
+}
+
+
+.frise-infos,
+.frise-legend {
+    font-family: var(--fonts-montserrat);
+    font-size: var(--sizes-petits-textes);
+    color: var(--colors-noir);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0.75rem 0 0 0;
+}
+
+.frise-infos {
+    margin-top: 0.4rem;
+}
+
+.frise__big-title {
+    margin: 0;
+}
+
+.frise__subtitle {
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.frise {
+    background: url(/assets/img/BG-frise.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

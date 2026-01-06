@@ -4,12 +4,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Article 1</title>
+    <meta name="description" content="Glossary page" />
+    <title>Forgotten Star - Glossary EN</title>
+
+    <!-- links to other files -->
+
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/png" href="/assets/favicon-EO/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-EO/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon-EO/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-EO/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicon-EO/site.webmanifest" />
+
 </head>
 
 <body>
-    <h1>Katherine Johnson</h1>
+    <header class="header">
+        <div class="header__bar">
+            <a href="../en/home.html" class="header__logo-link">
+                <img class="header__logo" src="/assets/icons/Logo-Blanc.svg" alt="logo Forgotten Star">
+            </a>
+            <div class="header__btn">
+                <button class="header__search-btn search-btn" aria-label="search" aria-expanded="false"
+                    aria-controls="searchForm">
+                    <img class="search-btn__icon" src="/assets/icons/loupe.svg" alt="">
+                </button>
+                <button class="header__language-btn language-btn" aria-label="language" aria-expanded="false"
+                    aria-controls="languageMenu">
+                    <img class="language-btn__icon" src="/assets/icons/globe.svg" alt="">
+
+                </button>
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
+                    aria-controls="mainNav">
+                    <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__main-list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article1en.html">Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article2en.html">Women of Science in the Literature</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article3en.html">The Achievements of Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article4en.html">Hidden Figures</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article5en.html">The BU's Item</a>
+                </li>
+            </ul>
+            <ul class="menu__secondary-list">
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/projects.html">Other Projects</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/glossary.html">Glossary</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/aboutme.html">About me</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/contacten.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__search search" id="searchForm" hidden>
+            <form class="search__form" action="#" method="get">
+                <input class="search__input" type="text" id="search-input" name="q" placeholder="type your keywords">
+                <button class="search__submit-btn" type="submit">Search</button>
+            </form>
+
+        </div>
+        <div class="header__language language" id="languageMenu" hidden>
+            <div class="language__triangle"></div>
+            <ul class="language__list">
+                <li class="language__item">
+                    <a class="language__link" href="../en/home.html"
+                        onclick="document.cookie = `nf_lang=en; path=/; SameSite=Strict`">English</a>
+                </li>
+                <li class="language__item">
+                    <a class="language__link" href="../fr/accueil.html"
+                        onclick="document.cookie = `nf_lang=fr; path=/; SameSite=Strict`">Français</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </header>
+    <main>
+        <section class="section-hero section-hero--article1">
+            <div class="section-hero__overlay">
+            </div>
+        </section>
+        <section class="section-article">
+            <h2 class="article-title">Katherine Johnson</h2>
+            <p class="article-intro">Long before modern computers, Katherine Johnson was doing complex math by hand.
+                Thanks to her, many American space missions succeeded, and she opened the way for women and
+                Afro-American scientists in space.</p>
+            <article class="article-content">
+                <h4 class="article-subtitle">An Exceptional Childhood</h4>
+                <p class="article-text">Katherine Johnson was born in 1918, in West Virginia. From a young age, she
+                    showed real talent for math. Her parents and teachers encouraged her a lot, and she was able to take
+                    advanced classes as a teenager. </p>
+                <p class="article-text">At only 15, she entered university. Her passion for numbers and her quick
+                    understanding of complex calculations prepared her for an important role in the history of space
+                    exploration.</p>
+            </article>
+            <article class="article-content">
+                <img class="article-image" src="/assets/img/art1_img1.avif" alt="Photo of Katherine Johnson"
+                    loading="lazy">
+                <p class="article-image__legend">Photo of Katherine Johnson</p>
+                <h4 class="article-subtitle">Her Beginnings at NASA</h4>
+                <p class="article-text">In 1953, Katherine joined the NACA, which later became NASA. She was part of a
+                    group of Afro-American women called the “Human Computers,” because they did all the calculations by
+                    hand.</p>
+                <p class="article-text">She quickly stood out for her accuracy and speed. Her coworkers relied on her to
+                    check the flight paths of space missions, and her calculations were often key to the success of
+                    launches and safe returns to Earth.</p>
+            </article>
+            <article class="article-content">
+                <img class="article-image" src="/assets/img/art1_img2.avif"
+                    alt="Photo of Katherine Johnson shaking hands with John Glenn" loading="lazy">
+                <p class="article-image__legend">Image from the movie, Hidden Figures</p>
+                <h4 class="article-subtitle">The Story with John Glenn</h4>
+                <p class="article-text">A famous moment in her career happened in 1962. John Glenn, the first American
+                    to orbit the Earth, asked Katherine to check his trajectory calculations before the launch of his
+                    Mercury-Atlas 6 mission. </p>
+                <p class="article-text">Glenn trusted her so much that he said:
+                    “If Katherine says it’s good, I’m ready to go.” Thanks to her, the mission was a total success and
+                    marked a big step for the United States in space exploration.</p>
+            </article>
+            <article class="article-content">
+                <img class="article-image" src="/assets/img/art1_img3.avif"
+                    alt="Photo of Katherine Johnson receiving an award" loading="lazy">
+                <p class="article-image__legend">Katherine Johnson receiving the Presidential Medal of Freedom</p>
+                </p>
+                <h4 class="article-subtitle">Recognition and Inspiration</h4>
+                <p class="article-text">In 2015, Katherine Johnson received the Presidential Medal of Freedom from
+                    Barack Obama, one of the highest honors in the United States.</p>
+                <p class="article-text">Then, in 2016, the movie Hidden Figures was released, telling part of her
+                    incredible story. It finally put her amazing work in the spotlight and gave her the recognition she
+                    didn’t get during her career.</p>
+                <p class="article-text">Today, Katherine is a true inspiration for young girls and for anyone who loves
+                    science. She proved that with hard work and passion, you can achieve great things, even when the
+                    world seems against you.</p>
+                <p class="article-author">Posted by Lucie Garcia <br> October 14, 2025 at 10:00 a.m.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo-container">
+            <a href="../en/home.html" class="footer__logo-link">
+                <img class="footer__logo" src="/assets/icons/logo-txt-en.svg" alt="logo Étoile oubliée">
+            </a>
+        </div>
+        <h6 class="footer__titles">INFO</h6>
+        <p class="footer__text">Web site realised by Lucie Garcia, group A1</p>
+        <a class="footer__mail-link" href="mailto:lucie@margar.fr">lucie@margar.fr</a>
+        <h6 class="footer__titles">Follow me</h6>
+        <ul class="footer__social-list">
+            <li class="footer__social-item">
+                <a class="footer__social-link" href="https://discord.gg/TGwCGtmt">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Discord.svg" alt="logo Discord">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.instagram.com/mindeuse?igsh=MThvZW5yejZyeml5bA%3D%3D&utm_source=qr">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Instagram.svg" alt="logo Instagram">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.linkedin.com/in/lucie-garcia-63157638b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    <img class="footer__social-icon" src="/assets/icons/logo-LinkedIn.svg" alt="logo LinkedIn">
+                </a>
+            </li>
+        </ul>
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/projects.html">Other Projects</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/glossary.html">Glossary</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/aboutme.html">About</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/contacten.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__legal-mentions">
+            <p class="footer__legal-mentions__text">Project realised in 2025 as part of an educational exercise at the
+                <a class="footer__legal-mentions__link"
+                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">MMi
+                    department of Montbéliard</a>
+            </p>
+            <a class="footer__legal-mentions__logo-link"
+                href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+                <img class="footer__legal-mentions__logo" src="/assets/icons/logo-mmi.svg" alt="logo MMI">
+            </a>
+
+        </div>
+
+    </footer>
+
 </body>
 
 </html>

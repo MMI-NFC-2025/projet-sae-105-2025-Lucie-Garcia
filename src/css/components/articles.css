@@ -1,0 +1,23 @@
+.article-intro {
+    margin-bottom: 5rem;
+}
+
+.article-content {
+    margin-bottom: 4rem;
+}
+
+.article-image__legend {
+    font-family: var(--fonts-montserrat);
+    font-size: var(--sizes-petits-textes);
+    color: var(--colors-noir);
+    margin-top: 0rem;
+}
+
+.article-author {
+    font-family: var(--fonts-montserrat);
+    font-size: var(--sizes-petits-textes);
+    color: var(--colors-noir);
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    text-align: right;
+}
