@@ -19,5 +19,14 @@
     justify-content: center;
     align-items: center;
     margin: 1rem;
+}
 
+.hero--contact {
+    background: var(--colors-rose-rouge);
+    height: 250px;
+    align-items: center;
+}
+
+.hero--contact .hero__title {
+    top: 0;
 }

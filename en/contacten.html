@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home page" />
-    <title>Forgotten Star - Home EN</title>
+    <meta name="description" content="Contact page" />
+    <title>Forgotten Star - Contact EN</title>
 
     <!-- links to other files -->
 
@@ -113,56 +113,57 @@
 
     </header>
 
+    <main>
+        <section class="hero hero--contact">
+            <h1 class="hero__title">Contact me</h1>
+        </section>
 
-    <div class="hero">
-        <div class="hero__content">
-            <h1 class="hero__title">Forgotten Star</h1>
-        </div>
-    </div>
-    <div class="arrow__bottom">
-        <img class="arrow__icon" src="/assets/icons/arrow-bottom.svg" alt="arrow pointing down">
-    </div>
-    <div class="intro">
-        <h2>Welcome</h2>
-        <p>Back when computers had pencils, an Afro-American woman brilliantly calculated
-            <a class="glossary__link" href="/en/glossary.html">NASA</a>'s missions trajectories by hand.
-            The NASA mathematician, Katherine Johnson, helped humanity to travel into space. However, she remained in
-            the shadows for a long time. She is not the only one to have remained unfairly in the shadows, this effect
-            is called <a class="glossary__link" href="/en/glossary.html">Matilda effect</a>.
-            Forgotten star pay tribute to Katherine Johnson and put in the light those women that have been erased from
-            history.
-        </p>
-    </div>
+        <section class="contact-section">
+            <h4 class="contact-section__title">Fill out the form</h4>
 
-    <div class="pages-cards">
-        <a href="/en/article1en.html" class="pages-cards__card">
-            <img src="/assets/img/hero_art1.avif" alt="Katherine Johnson" class="pages-cards__img" />
-            <h4 class="pages-cards__title">Katherine Johnson</h4>
-            <p class="pages-cards__description">“A pioneer in space calculations and the genius behind the Mercury and
-                Apollo missions.”</p>
-        </a>
-        <a href="/en/article2en.html" class="pages-cards__card">
-            <img src="/assets/img/hero_art2.avif" alt="Book cover" class="pages-cards__img" />
-            <h4 class="pages-cards__title">Women of science in the literature</h4>
-            <p class="pages-cards__description">“Books that can repair history.”</p>
-        </a>
-        <a href="/en/article3en.html" class="pages-cards__card">
-            <img src="/assets/img/hero_art3.avif" alt="Photo of Katherine Johnson writing on a board"
-                class="pages-cards__img" />
-            <h4 class="pages-cards__title">The achievements of Katherine Johnson</h4>
-            <p class="pages-cards__description">“How she calculated the trajectory of Apollo 11.”</p>
-        </a>
-        <a href="/en/article4en.html" class="pages-cards__card">
-            <img src="/assets/img/hero_art4.avif" alt="Movie poster" class="pages-cards__img" />
-            <h4 class="pages-cards__title">Hidden Figures</h4>
-            <p class="pages-cards__description">“When cinema does justice to women of science.”</p>
-        </a>
-        <a href="/en/article5en.html" class="pages-cards__card">
-            <img src="/assets/img/hero_art5.avif" alt="DVD cover" class="pages-cards__img" />
-            <h4 class="pages-cards__title">The BU's Item</h4>
-            <p class="pages-cards__description">“The DVD : Hidden Figures”</p>
-        </a>
-    </div>
+            <form class="contact-form">
+                <div class="contact-form__row">
+                    <div class="contact-form__field">
+                        <label for="name" class="contact-form__label">Name<span class="required">*</span></label>
+                        <input type="text" id="name" name="name" class="contact-form__input" required>
+                    </div>
+                    <div class="contact-form__field">
+                        <label for="firstname" class="contact-form__label">First Name<span
+                                class="required">*</span></label>
+                        <input type="text" id="firstname" name="firstname" class="contact-form__input" required>
+                    </div>
+                </div>
+
+                <div class="contact-form__field">
+                    <label for="email" class="contact-form__label">E-mail<span class="required">*</span></label>
+                    <input type="email" id="email" name="email" class="contact-form__input" required>
+                </div>
+
+                <div class="contact-form__field">
+                    <label for="object" class="contact-form__label">Object<span class="required">*</span></label>
+                    <input type="text" id="object" name="object" class="contact-form__input" required>
+                </div>
+
+                <div class="contact-form__field">
+                    <label for="message" class="contact-form__label">Message<span class="required">*</span></label>
+                    <textarea id="message" name="message" class="contact-form__textarea" rows="10" required></textarea>
+                </div>
+
+                <button type="submit" class="contact-form__submit">Send</button>
+            </form>
+
+            <div class="contact-direct">
+                <h4 class="contact-direct__title">Or contact me directly</h4>
+                <div class="contact-direct__info">
+                    <img src="/assets/icons/mail.svg" alt="email icon" class="contact-direct__icon">
+                    <a href="mailto:lucie@margar.fr" class="contact-direct__email">lucie@margar.fr</a>
+                </div>
+            </div>
+
+            <p class="contact-required"> : Required field</p>
+        </section>
+    </main>
+
     <footer class="footer">
         <div class="footer__logo-container">
             <a href="../en/home.html" class="footer__logo-link">
