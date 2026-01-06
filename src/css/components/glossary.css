@@ -1,0 +1,27 @@
+.glossary__title {
+    color: var(--colors-rose-rouge);
+    font-family: var(--fonts-montserrat);
+    font-size: var(--sizes-gras);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+}
+
+.glossary__text {
+    color: var(--colors-noir);
+    font-family: var(--fonts-montserrat);
+    font-size: var(--sizes-textes);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.glossary__entry {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.glossary {
+    padding: 1rem;
+}

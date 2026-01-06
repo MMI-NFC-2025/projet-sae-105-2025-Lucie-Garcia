@@ -23,3 +23,13 @@
     align-items: center;
     gap: 5px;
 }
+
+.back-btn {
+    position: fixed;
+    top: 5rem;
+    left: 1.5rem;
+    z-index: 53;
+    background-color: var(--colors-bleu-fonce);
+    border-radius: 50%;
+    padding: 10px;
+}

@@ -30,3 +30,16 @@
 .hero--contact .hero__title {
     top: 0;
 }
+
+.hero--contact {
+    height: 250px;
+    align-items: center;
+}
+
+.section-hero--contact {
+    background: var(--colors-rose-rouge);
+    height: 200px;
+    display: flex;
+    padding: 1rem;
+
+}
