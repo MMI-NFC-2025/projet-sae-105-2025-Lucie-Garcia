@@ -31,132 +31,296 @@
 </head>
 
 <body>
-    <h2 class="article-title">Les femmes de science dans la littérature</h2>
-    <p class="article-intro">Dans un monde où les femmes sont trop souvent mises de côté et oubliées, la littérature
-        leur donne voix en faisant resurgir leurs histoires.</p>
-    <h4 class="article-subtitle">“Hidden figures” le livre avant le film</h4>
-    <p class="article-text">Le livre Hidden Figures, écrit par Margot Lee Shetterly, raconte la vie de femmes
-        afro-américaines qui ont travaillé à la NASA et qui ont participé à la conquête de l’espace.
-        Avant ce récit, très peu de gens connaissaient leurs noms. </p>
-    <p class="article-text">Le livre est sorti en septembre 2016, après 6 ans d’écriture, il a été adapté immédiatement
-        après au cinéma la même année.</p>
-    <p class="article-text">La littérature permet ici de montrer que ces femmes étaient des scientifiques talentueuses
-        et courageuses, même si elles étaient souvent invisibles à l’époque.</p>
-    <h5 class="article-subtitle--small">Extrait du livre :</h5>
-    <blockquote>
-        <p class="article-quote">”Sachant que seule une poignée de ces « filles » avaient décroché le titre de «
-            mathématicienne »
-            — une désignation professionnelle qui les plaçait sur un pied d'égalité avec les employés de sexe masculin
-            du bas de l'échelle —, le fait que la plupart des calculatrices soient cantonnées à des postes d’«
-            assistantes » ne pouvait qu'être bénéfique à l'équilibre budgétaire du laboratoire.”</p>
-    </blockquote>
-    <p class="article-quote-author">Margot Lee Shetterly,<cite>Hidden Figures</cite></p>
-    <button class="article-button" href='https://www.fnac.com/a10240560/Margot-Lee-Shetterly-Les-figures-de-l-ombre'>
-        → Acheter le livre
-    </button>
+    <header class="header">
+        <div class="header__bar">
+            <a href="../fr/accueil.html" class="header__logo-link">
+                <img class="header__logo" src="/assets/icons/Logo-Blanc.svg" alt="logo Étoile oubliée">
+            </a>
+            <div class="header__btn">
+                <button class="header__search-btn search-btn" aria-label="search" aria-expanded="false"
+                    aria-controls="searchForm">
+                    <img class="search-btn__icon" src="/assets/icons/loupe.svg" alt="">
+                </button>
+                <button class="header__language-btn language-btn" aria-label="language" aria-expanded="false"
+                    aria-controls="languageMenu">
+                    <img class="language-btn__icon" src="/assets/icons/globe.svg" alt="">
 
-    <img class="article-image" src="/assets/img/art2_img1.avif" alt="livre ouvert" loading="lazy">
-    <p class="article-image__legend">Image d'un livre</p>
-    <h4 class="article-subtitle">L’importance du récit</h4>
-    <p class="article-text">Raconter ces histoires dans des livres ou des articles est important. Cela permet de rendre
-        justice à celles qui ont été oubliées et de montrer que la science n’a pas toujours été réservée aux hommes.</p>
-    <p class="article-text">Dans ces livres les femmes de science refont surface.</p>
-    <p class="article-text">Ces récits inspirent aussi les jeunes générations et encouragent les filles à s’intéresser
-        aux mathématiques, à la physique ou à l’ingénierie.</p>
-    <img class="article-image" src="/assets/img/art2_img2.avif" alt="slogan #no more matildas" loading="lazy">
-    <p class="article-image__legend">Slogan #no more matildas</p>
-    <h4 class="article-subtitle">Les “Matildas”</h4>
-    <p class="article-text">Cette mauvaise habitude de la société de mettre de côté les femmes scientifiques, de les
-        minimiser ou de les oublier porte un nom : c’est l’effet Matilda.</p>
-    <p class="article-text">La littérature, en racontant leurs histoires, peut corriger ces injustices et rendre
-        visibles des talents longtemps ignorés.</p>
-    <p class="article-text">Aujourd’hui, même si la société évolue et tente de réparer ces erreurs, il reste essentiel
-        de ne pas oublier les femmes scientifiques du passé. Les livres sont un moyen idéal pour y parvenir.</p>
-    <h4 class="article-subtitle">Frise des Matilda</h4>
-    <h5 class="article-subtitle--small">Voici quelques-unes des Matildas</h5>
-
-    <div class="frise">
-        <div class="frise-item frise-item--rose">
-            <img class="frise-image frise-image--rose" src="/assets/img/frise_ma_an_pi_pa.avif"
-                alt="Marie Anne Pierrette Paulze de Lavoisier" loading="lazy">
-            <h6 class="frise-title frise-title--rose">Marie Anne Pierrette Paulze de Lavoisier</h6>
-            <p class="frise-infos frise-infos--rose">(1758-1836)
-                Chimiste, France</p>
-            <p class="frise-legend frise-legend--rose">Elle était une collaboratrice essentielle de son mari, Antoine
-                Lavoisier</p>
+                </button>
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
+                    aria-controls="mainNav">
+                    <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+                </button>
+            </div>
         </div>
-        <div class="frise-item frise-item--bleu">
-            <img class="frise-image frise-image--bleu" src="/assets/img/frise_ma_an.avif" alt="Marie Anning
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__main-list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article1fr.html">Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article2fr.html">Les femmes de science dans la littérature</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article3fr.html">Les prouesses de Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article4fr.html">Les figures de l’ombre</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article5fr.html">L’objet de la BU</a>
+                </li>
+            </ul>
+            <ul class="menu__secondary-list">
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/projets.html">Autres projets</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/glossaire.html">Glossaire</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/apropos.html">À propos</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/contactfr.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__search search" id="searchForm" hidden>
+            <form class="search__form" action="#" method="get">
+                <input class="search__input" type="text" id="search-input" name="q" placeholder="Tapez vos mots-clés">
+                <button class="search__submit-btn" type="submit">Rechercher</button>
+            </form>
+
+        </div>
+        <div class="header__language language" id="languageMenu" hidden>
+            <div class="language__triangle"></div>
+            <ul class="language__list">
+                <li class="language__item">
+                    <a class="language__link" href="../en/home.html"
+                        onclick="document.cookie = `nf_lang=en; path=/; SameSite=Strict`">English</a>
+                </li>
+                <li class="language__item">
+                    <a class="language__link" href="../fr/accueil.html"
+                        onclick="document.cookie = `nf_lang=fr; path=/; SameSite=Strict`">Français</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </header>
+    <section class="section-hero section-hero--article1">
+        <div class="section-hero__overlay">
+        </div>
+    </section>
+    <section class="section-article">
+        <h2 class="article-title">Les femmes de science dans la littérature</h2>
+        <p class="article-intro">Dans un monde où les femmes sont trop souvent mises de côté et oubliées, la littérature
+            leur donne voix en faisant resurgir leurs histoires.</p>
+        <h4 class="article-subtitle">“Hidden figures” le livre avant le film</h4>
+        <p class="article-text">Le livre Hidden Figures, écrit par Margot Lee Shetterly, raconte la vie de femmes
+            afro-américaines qui ont travaillé à la NASA et qui ont participé à la conquête de l’espace.
+            Avant ce récit, très peu de gens connaissaient leurs noms. </p>
+        <p class="article-text">Le livre est sorti en septembre 2016, après 6 ans d’écriture, il a été adapté
+            immédiatement
+            après au cinéma la même année.</p>
+        <p class="article-text">La littérature permet ici de montrer que ces femmes étaient des scientifiques
+            talentueuses
+            et courageuses, même si elles étaient souvent invisibles à l’époque.</p>
+        <h5 class="article-subtitle--small">Extrait du livre :</h5>
+        <blockquote>
+            <p class="article-quote">”Sachant que seule une poignée de ces « filles » avaient décroché le titre de «
+                mathématicienne »
+                — une désignation professionnelle qui les plaçait sur un pied d'égalité avec les employés de sexe
+                masculin
+                du bas de l'échelle —, le fait que la plupart des calculatrices soient cantonnées à des postes d’«
+                assistantes » ne pouvait qu'être bénéfique à l'équilibre budgétaire du laboratoire.”</p>
+        </blockquote>
+        <p class="article-quote-author">Margot Lee Shetterly,<cite>Hidden Figures</cite></p>
+        <button class="article-button">
+            <a class="article-button-link"
+                href='https://www.fnac.com/a10240560/Margot-Lee-Shetterly-Les-figures-de-l-ombre'>
+                → Acheter le livre
+            </a>
+        </button>
+
+        <img class="article-image" src="/assets/img/art2_img1.avif" alt="livre ouvert" loading="lazy">
+        <p class="article-image__legend">Image d'un livre</p>
+        <h4 class="article-subtitle">L’importance du récit</h4>
+        <p class="article-text">Raconter ces histoires dans des livres ou des articles est important. Cela permet de
+            rendre
+            justice à celles qui ont été oubliées et de montrer que la science n’a pas toujours été réservée aux hommes.
+        </p>
+        <p class="article-text">Dans ces livres les femmes de science refont surface.</p>
+        <p class="article-text">Ces récits inspirent aussi les jeunes générations et encouragent les filles à
+            s’intéresser
+            aux mathématiques, à la physique ou à l’ingénierie.</p>
+        <img class="article-image" src="/assets/img/art2_img2.avif" alt="slogan #no more matildas" loading="lazy">
+        <p class="article-image__legend">Slogan #no more matildas</p>
+        <h4 class="article-subtitle">Les “Matildas”</h4>
+        <p class="article-text">Cette mauvaise habitude de la société de mettre de côté les femmes scientifiques, de les
+            minimiser ou de les oublier porte un nom : c’est l’effet Matilda.</p>
+        <p class="article-text">La littérature, en racontant leurs histoires, peut corriger ces injustices et rendre
+            visibles des talents longtemps ignorés.</p>
+        <p class="article-text">Aujourd’hui, même si la société évolue et tente de réparer ces erreurs, il reste
+            essentiel
+            de ne pas oublier les femmes scientifiques du passé. Les livres sont un moyen idéal pour y parvenir.</p>
+        <h4 class="article-subtitle">Frise des Matilda</h4>
+        <h5 class="article-subtitle--small">Voici quelques-unes des Matildas</h5>
+
+        <div class="frise">
+            <div class="frise-item frise-item--rose">
+                <img class="frise-image frise-image--rose" src="/assets/img/frise_ma_an_pi_pa.avif"
+                    alt="Marie Anne Pierrette Paulze de Lavoisier" loading="lazy">
+                <h6 class="frise-title frise-title--rose">Marie Anne Pierrette Paulze de Lavoisier</h6>
+                <p class="frise-infos frise-infos--rose">(1758-1836)
+                    Chimiste, France</p>
+                <p class="frise-legend frise-legend--rose">Elle était une collaboratrice essentielle de son mari,
+                    Antoine
+                    Lavoisier</p>
+            </div>
+            <div class="frise-item frise-item--bleu">
+                <img class="frise-image frise-image--bleu" src="/assets/img/frise_ma_an.avif" alt="Marie Anning
 " loading="lazy">
-            <h6 class="frise-title frise-title--bleu">Mary Anning</h6>
-            <p class="frise-infos frise-infos--bleu">(1799-1847)
-                Paléontologiste, Grande Bretagne</p>
-            <p class="frise-legend frise-legend--bleu">Elle à identifier le premier squelette d’un ichthyosaure
-                (dinosaure)</p>
+                <h6 class="frise-title frise-title--bleu">Mary Anning</h6>
+                <p class="frise-infos frise-infos--bleu">(1799-1847)
+                    Paléontologiste, Grande Bretagne</p>
+                <p class="frise-legend frise-legend--bleu">Elle à identifier le premier squelette d’un ichthyosaure
+                    (dinosaure)</p>
+            </div>
+            <div class="frise-item frise-item--rose">
+                <img class="frise-image frise-image--rose" src="/assets/img/frise_ad_lo.avif" alt="Ada Lovelace"
+                    loading="lazy">
+                <h6 class="frise-title frise-title--rose">Ada Lovelace</h6>
+                <p class="frise-infos frise-infos--rose">(1815-1852)
+                    Grande Bretagne</p>
+                <p class="frise-legend frise-legend--rose">La toute première programmatrice de l’histoire
+                </p>
+            </div>
+            <div class="frise-item frise-item--bleu">
+                <img class="frise-image frise-image--bleu" src="/assets/img/frise_ne_ma_st.avif"
+                    alt="Nettie Maria Stevens" loading="lazy">
+                <h6 class="frise-title frise-title--bleu">Nettie Maria Stevens</h6>
+                <p class="frise-infos frise-infos--bleu">(1861-1912)
+                    Génétique, USA</p>
+                <p class="frise-legend frise-legend--bleu">Elle a découvert les chromosomes sexuels X et Y</p>
+            </div>
+            <div class="frise-item frise-item--rose">
+                <img class="frise-image frise-image--rose" src="/assets/img/frise_li_ma.avif" alt="Lise Maitner"
+                    loading="lazy">
+                <h6 class="frise-title frise-title--rose">Lise Maitner</h6>
+                <p class="frise-infos frise-infos--rose">(1878-1968)
+                    Physicienne nucléaire, Autriche</p>
+                <p class="frise-legend frise-legend--rose">Elle a découvert le phénomène de fission nucléaire.</p>
+            </div>
+            <div class="frise-item frise-item--bleu">
+                <img class="frise-image frise-image--bleu" src="/assets/img/frise_gr_mu_ho.avif"
+                    alt="Grace Murray Hopper" loading="lazy">
+                <h6 class="frise-title frise-title--bleu">Grace Murray Hopper</h6>
+                <p class="frise-infos frise-infos--bleu">(1906-1992)
+                    Informaticienne et Lieutenant de la US navy, USA</p>
+                <p class="frise-legend frise-legend--bleu">Elle à développer le premier compilateur</p>
+            </div>
+            <div class="frise-item frise-item--rose">
+                <img class="frise-image frise-image--rose" src="/assets/img/frise_he_la.avif" alt="Hedy Lamarr"
+                    loading="lazy">
+                <h6 class="frise-title frise-title--rose">Hedy Lamarr</h6>
+                <p class="frise-infos frise-infos--rose">(1914-2000)
+                    Inventrice et actrice, Autriche</p>
+                <p class="frise-legend frise-legend--rose">En plus d’être une actrice célèbre, elle a créé un système
+                    qui
+                    aujourd’hui sert de base aux communications sans fils tel que le WIFI mais aussi le GPS</p>
+            </div>
+            <div class="frise-item frise-item--bleu">
+                <img class="frise-image frise-image--bleu" src="/assets/img/frise_ka_jo.avif" alt="Katherine Johnson"
+                    loading="lazy">
+                <h6 class="frise-title frise-title--bleu">Katherine Johnson</h6>
+                <p class="frise-infos frise-infos--bleu">(1918-2020)
+                    Informaticienne, mathématicienne, ingénieure aéronautique, physicienne, enseignante, USA</p>
+                <p class="frise-legend frise-legend--bleu">Elle à calculé les trajectoires des missions de la NASA à la
+                    main
+                </p>
+            </div>
+            <div class="frise-item frise-item--rose">
+                <img class="frise-image frise-image--rose" src="/assets/img/frise_ro_fr.avif" alt="Rosalind Franklin"
+                    loading="lazy">
+                <h6 class="frise-title frise-title--rose">Rosalind Franklin</h6>
+                <p class="frise-infos frise-infos--rose">(1920-1958)
+                    Chimiste, Grande Bretagne
+                </p>
+                <p class="frise-legend frise-legend--rose">Elle a découvert la structure de l’ADN</p>
+            </div>
         </div>
-        <div class="frise-item frise-item--rose">
-            <img class="frise-image frise-image--rose" src="/assets/img/frise_ad_lo.avif" alt="Ada Lovelace"
-                loading="lazy">
-            <h6 class="frise-title frise-title--rose">Ada Lovelace</h6>
-            <p class="frise-infos frise-infos--rose">(1815-1852)
-                Grande Bretagne</p>
-            <p class="frise-legend frise-legend--rose">La toute première programmatrice de l’histoire
-            </p>
-        </div>
-        <div class="frise-item frise-item--bleu">
-            <img class="frise-image frise-image--bleu" src="/assets/img/frise_ne_ma_st.avif" alt="Nettie Maria Stevens"
-                loading="lazy">
-            <h6 class="frise-title frise-title--bleu">Nettie Maria Stevens</h6>
-            <p class="frise-infos frise-infos--bleu">(1861-1912)
-                Génétique, USA</p>
-            <p class="frise-legend frise-legend--bleu">Elle a découvert les chromosomes sexuels X et Y</p>
-        </div>
-        <div class="frise-item frise-item--rose">
-            <img class="frise-image frise-image--rose" src="/assets/img/frise_li_ma.avif" alt="Lise Maitner"
-                loading="lazy">
-            <h6 class="frise-title frise-title--rose">Lise Maitner</h6>
-            <p class="frise-infos frise-infos--rose">(1878-1968)
-                Physicienne nucléaire, Autriche</p>
-            <p class="frise-legend frise-legend--rose">Elle a découvert le phénomène de fission nucléaire.</p>
-        </div>
-        <div class="frise-item frise-item--bleu">
-            <img class="frise-image frise-image--bleu" src="/assets/img/frise_gr_mu_ho.avif" alt="Grace Murray Hopper"
-                loading="lazy">
-            <h6 class="frise-title frise-title--bleu">Grace Murray Hopper</h6>
-            <p class="frise-infos frise-infos--bleu">(1906-1992)
-                Informaticienne et Lieutenant de la US navy, USA</p>
-            <p class="frise-legend frise-legend--bleu">Elle à développer le premier compilateur</p>
-        </div>
-        <div class="frise-item frise-item--rose">
-            <img class="frise-image frise-image--rose" src="/assets/img/frise_he_la.avif" alt="Hedy Lamarr"
-                loading="lazy">
-            <h6 class="frise-title frise-title--rose">Hedy Lamarr</h6>
-            <p class="frise-infos frise-infos--rose">(1914-2000)
-                Inventrice et actrice, Autriche</p>
-            <p class="frise-legend frise-legend--rose">En plus d’être une actrice célèbre, elle a créé un système qui
-                aujourd’hui sert de base aux communications sans fils tel que le WIFI mais aussi le GPS</p>
-        </div>
-        <div class="frise-item frise-item--bleu">
-            <img class="frise-image frise-image--bleu" src="/assets/img/frise_ka_jo.avif" alt="Katherine Johnson"
-                loading="lazy">
-            <h6 class="frise-title frise-title--bleu">Katherine Johnson</h6>
-            <p class="frise-infos frise-infos--bleu">(1918-2020)
-                Informaticienne, mathématicienne, ingénieure aéronautique, physicienne, enseignante, USA</p>
-            <p class="frise-legend frise-legend--bleu">Elle à calculé les trajectoires des missions de la NASA à la main
-            </p>
-        </div>
-        <div class="frise-item frise-item--rose">
-            <img class="frise-image frise-image--rose" src="/assets/img/frise_ro_fr.avif" alt="Rosalind Franklin"
-                loading="lazy">
-            <h6 class="frise-title frise-title--rose">Rosalind Franklin</h6>
-            <p class="frise-infos frise-infos--rose">(1920-1958)
-                Chimiste, Grande Bretagne
-            </p>
-            <p class="frise-legend frise-legend--rose">Elle a découvert la structure de l’ADN</p>
-        </div>
-    </div>
-    <p class="article-author">Publié par Lucie Garcia <br>
-        Le 20 octobre 2025 à 10h00</p>
+        <p class="article-author">Publié par Lucie Garcia <br>
+            Le 20 octobre 2025 à 10h00</p>
+    </section>
 
+    <footer class="footer">
+        <div class="footer__logo-container">
+            <a href="../fr/accueil.html" class="footer__logo-link">
+                <img class="footer__logo" src="/assets/icons/logo-Blanc-txt.svg" alt="logo Étoile oubliée">
+            </a>
+        </div>
+        <h6 class="footer__titles">INFOS</h6>
+        <p class="footer__text">Site réalisé par Lucie Garcia du groupe A1</p>
+        <a class="footer__mail-link" href="mailto:lucie@margar.fr">lucie@margar.fr</a>
+        <h6 class="footer__titles">Me suivre</h6>
+        <ul class="footer__social-list">
+            <li class="footer__social-item">
+                <a class="footer__social-link" href="https://discord.gg/TGwCGtmt">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Discord.svg" alt="logo Discord">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.instagram.com/mindeuse?igsh=MThvZW5yejZyeml5bA%3D%3D&utm_source=qr">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Instagram.svg" alt="logo Instagram">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.linkedin.com/in/lucie-garcia-63157638b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    <img class="footer__social-icon" src="/assets/icons/logo-LinkedIn.svg" alt="logo LinkedIn">
+                </a>
+            </li>
+        </ul>
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/fr/projets.html">Autres projets</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/fr/glossaire.html">Glossaire</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/fr/apropos.html">À propos</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/fr/contactfr.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__legal-mentions">
+            <p class="footer__legal-mentions__text">Projet réalisé en 2025 dans le cadre d’un exercice pédagogique
+                au département <a class="footer__legal-mentions__link"
+                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">MMI de
+                    Montbéliard</a></p>
+            <a class="footer__legal-mentions__logo-link"
+                href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+                <img class="footer__legal-mentions__logo" src="/assets/icons/logo-mmi.svg" alt="logo MMI">
+            </a>
 
+        </div>
+
+    </footer>
 </body>

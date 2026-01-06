@@ -31,50 +31,210 @@
 </head>
 
 <body>
-    <h2 class="article-title">Katherine Johnson</h2>
-    <p class="article-intro">Bien avant les ordinateurs modernes, Katherine Johnson faisait des calculs complexes à la
-        main. Grâce à elle, de nombreuses missions spatiales américaines ont réussi, et elle a ouvert la voie aux femmes
-        et aux scientifiques afro-américains dans l’espace.</p>
-    <h4 class="article-subtitle">Une enfance exceptionnelle</h4>
-    <p class="article-text">Katherine Johnson est née en 1918, en Virginie-Occidentale. Très vite, elle a montré un vrai
-        talent pour les mathématiques. Ses parents et ses professeurs l’ont beaucoup encouragée et elle a pu suivre des
-        cours avancés dès son adolescence. À seulement 15 ans, elle entre à l’université. Cette passion pour les
-        chiffres et sa capacité à comprendre rapidement des calculs compliqués allaient préparer son futur rôle dans
-        l’histoire de l’exploration spatiale</p>
-    <img class="article-image" src="/assets/img/art1_img1.avif" alt="Photo de Katherine Johnson" loading="lazy">
-    <p class="article-image__legend">Photo de Katherine Johnson</p>
-    <h4 class="article-subtitle">Ses débuts à la NASA</h4>
-    <p class="article-text">En 1953, Katherine rejoint le NACA, qui deviendra plus tard la NASA. Elle fait partie d’un
-        groupe de femmes afro-américaines appelées les “Human computers”, car elles faisaient tous les calculs à la
-        main. Très vite, elle se distingue par sa précision et sa rapidité. Ses collègues comptent sur elle pour
-        vérifier les trajectoires des missions spatiales, et ses calculs sont souvent décisifs pour la réussite des
-        lancements et des retours sur Terre.</p>
-    <img class="article-image" src="/assets/img/art1_img2.avif"
-        alt="Photo de Katherine Johnson serrant la main à John Glenn" loading="lazy">
-    <p class="article-image__legend">Image extraite du film, Les Figures De l’Ombre</p>
-    <h4 class="article-subtitle">L’histoire avec John Glenn</h4>
-    <p class="article-text">Un moment célèbre de sa carrière se passe en 1962. John Glenn, le premier Américain à faire
-        le tour de la Terre, demande que Katherine vérifie ses calculs de trajectoire avant le lancement de sa mission
-        Mercury-Atlas 6. Glenn a tellement confiance en elle qu’il dit : “Si Katherine dit que c’est bon, je décolle.”
-        Grâce à elle, la mission réussit parfaitement et marque un grand pas pour les États-Unis dans la conquête de
-        l’espace.</p>
-    <img class="article-image" src="/assets/img/art1_img3.avif" alt="Photo de Katherine Johnson qui reçoit un prix"
-        loading="lazy">
-    <p class="article-image__legend">Katherine Johnson qui reçoit la Médaille présidentielle de la Liberté</p>
-    <h4 class="article-subtitle">Reconnaissance et inspiration</h4>
-    <p class="article-text">En 2015, Katherine Johnson reçoit la Médaille présidentielle de la Liberté des mains de
-        Barack Obama, une distinction très importante. </p>
-    <p class="article-text">Et en 2016, un film, Les figures de l’ombre qui raconte en partie son histoire hors du
-        commun. Il met enfin en lumière ses prouesses et lui donne toute la reconnaissance qu’elle n’a pu avoir lors de
-        ses années de travail.</p>
-    <p class="article-text">Aujourd’hui, Katherine est une vraie source d’inspiration pour les jeunes filles et tous
-        ceux qui aiment les sciences. Elle prouve qu’avec du travail et de la passion, on peut accomplir de grandes
-        choses, même quand le monde semble contre nous.</p>
-    <p class="article-author">Publié par Lucie Garcia <br>
-        Le 14 octobre 2025 à 10h00</p>
+    <header class="header">
+        <div class="header__bar">
+            <a href="../fr/accueil.html" class="header__logo-link">
+                <img class="header__logo" src="/assets/icons/Logo-Blanc.svg" alt="logo Étoile oubliée">
+            </a>
+            <div class="header__btn">
+                <button class="header__search-btn search-btn" aria-label="search" aria-expanded="false"
+                    aria-controls="searchForm">
+                    <img class="search-btn__icon" src="/assets/icons/loupe.svg" alt="">
+                </button>
+                <button class="header__language-btn language-btn" aria-label="language" aria-expanded="false"
+                    aria-controls="languageMenu">
+                    <img class="language-btn__icon" src="/assets/icons/globe.svg" alt="">
+
+                </button>
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
+                    aria-controls="mainNav">
+                    <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__main-list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article1fr.html">Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article2fr.html">Les femmes de science dans la littérature</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article3fr.html">Les prouesses de Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article4fr.html">Les figures de l’ombre</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article5fr.html">L’objet de la BU</a>
+                </li>
+            </ul>
+            <ul class="menu__secondary-list">
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/projets.html">Autres projets</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/glossaire.html">Glossaire</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/apropos.html">À propos</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/fr/contactfr.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__search search" id="searchForm" hidden>
+            <form class="search__form" action="#" method="get">
+                <input class="search__input" type="text" id="search-input" name="q" placeholder="Tapez vos mots-clés">
+                <button class="search__submit-btn" type="submit">Rechercher</button>
+            </form>
+
+        </div>
+        <div class="header__language language" id="languageMenu" hidden>
+            <div class="language__triangle"></div>
+            <ul class="language__list">
+                <li class="language__item">
+                    <a class="language__link" href="../en/home.html"
+                        onclick="document.cookie = `nf_lang=en; path=/; SameSite=Strict`">English</a>
+                </li>
+                <li class="language__item">
+                    <a class="language__link" href="../fr/accueil.html"
+                        onclick="document.cookie = `nf_lang=fr; path=/; SameSite=Strict`">Français</a>
+                </li>
+            </ul>
+        </div>
 
 
+    </header>
+    <section class="section-hero section-hero--article1">
+        <div class="section-hero__overlay">
+        </div>
+    </section>
+    <section class="section-article">
+        <h2 class="article-title">Katherine Johnson</h2>
+        <p class="article-intro">Bien avant les ordinateurs modernes, Katherine Johnson faisait des calculs complexes à
+            la
+            main. Grâce à elle, de nombreuses missions spatiales américaines ont réussi, et elle a ouvert la voie aux
+            femmes
+            et aux scientifiques afro-américains dans l’espace.</p>
+        <h4 class="article-subtitle">Une enfance exceptionnelle</h4>
+        <p class="article-text">Katherine Johnson est née en 1918, en Virginie-Occidentale. Très vite, elle a montré un
+            vrai
+            talent pour les mathématiques. Ses parents et ses professeurs l’ont beaucoup encouragée et elle a pu suivre
+            des
+            cours avancés dès son adolescence. À seulement 15 ans, elle entre à l’université. Cette passion pour les
+            chiffres et sa capacité à comprendre rapidement des calculs compliqués allaient préparer son futur rôle dans
+            l’histoire de l’exploration spatiale</p>
+        <img class="article-image" src="/assets/img/art1_img1.avif" alt="Photo de Katherine Johnson" loading="lazy">
+        <p class="article-image__legend">Photo de Katherine Johnson</p>
+        <h4 class="article-subtitle">Ses débuts à la NASA</h4>
+        <p class="article-text">En 1953, Katherine rejoint le NACA, qui deviendra plus tard la NASA. Elle fait partie
+            d’un
+            groupe de femmes afro-américaines appelées les “Human computers”, car elles faisaient tous les calculs à la
+            main. Très vite, elle se distingue par sa précision et sa rapidité. Ses collègues comptent sur elle pour
+            vérifier les trajectoires des missions spatiales, et ses calculs sont souvent décisifs pour la réussite des
+            lancements et des retours sur Terre.</p>
+        <img class="article-image" src="/assets/img/art1_img2.avif"
+            alt="Photo de Katherine Johnson serrant la main à John Glenn" loading="lazy">
+        <p class="article-image__legend">Image extraite du film, Les Figures De l’Ombre</p>
+        <h4 class="article-subtitle">L’histoire avec John Glenn</h4>
+        <p class="article-text">Un moment célèbre de sa carrière se passe en 1962. John Glenn, le premier Américain à
+            faire
+            le tour de la Terre, demande que Katherine vérifie ses calculs de trajectoire avant le lancement de sa
+            mission
+            Mercury-Atlas 6. Glenn a tellement confiance en elle qu’il dit : “Si Katherine dit que c’est bon, je
+            décolle.”
+            Grâce à elle, la mission réussit parfaitement et marque un grand pas pour les États-Unis dans la conquête de
+            l’espace.</p>
+        <img class="article-image" src="/assets/img/art1_img3.avif" alt="Photo de Katherine Johnson qui reçoit un prix"
+            loading="lazy">
+        <p class="article-image__legend">Katherine Johnson qui reçoit la Médaille présidentielle de la Liberté</p>
+        <h4 class="article-subtitle">Reconnaissance et inspiration</h4>
+        <p class="article-text">En 2015, Katherine Johnson reçoit la Médaille présidentielle de la Liberté des mains de
+            Barack Obama, une distinction très importante. </p>
+        <p class="article-text">Et en 2016, un film, Les figures de l’ombre qui raconte en partie son histoire hors du
+            commun. Il met enfin en lumière ses prouesses et lui donne toute la reconnaissance qu’elle n’a pu avoir lors
+            de
+            ses années de travail.</p>
+        <p class="article-text">Aujourd’hui, Katherine est une vraie source d’inspiration pour les jeunes filles et tous
+            ceux qui aiment les sciences. Elle prouve qu’avec du travail et de la passion, on peut accomplir de grandes
+            choses, même quand le monde semble contre nous.</p>
+        <p class="article-author">Publié par Lucie Garcia <br>
+            Le 14 octobre 2025 à 10h00</p>
+    </section>
 
+
+    <footer class="footer">
+        <div class="footer__logo-container">
+            <a href="../fr/accueil.html" class="footer__logo-link">
+                <img class="footer__logo" src="/assets/icons/logo-Blanc-txt.svg" alt="logo Étoile oubliée">
+            </a>
+        </div>
+        <h6 class="footer__titles">INFOS</h6>
+        <p class="footer__text">Site réalisé par Lucie Garcia du groupe A1</p>
+        <a class="footer__mail-link" href="mailto:lucie@margar.fr">lucie@margar.fr</a>
+        <h6 class="footer__titles">Me suivre</h6>
+        <ul class="footer__social-list">
+            <li class="footer__social-item">
+                <a class="footer__social-link" href="https://discord.gg/TGwCGtmt">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Discord.svg" alt="logo Discord">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.instagram.com/mindeuse?igsh=MThvZW5yejZyeml5bA%3D%3D&utm_source=qr">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Instagram.svg" alt="logo Instagram">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.linkedin.com/in/lucie-garcia-63157638b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    <img class="footer__social-icon" src="/assets/icons/logo-LinkedIn.svg" alt="logo LinkedIn">
+                </a>
+            </li>
+        </ul>
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/fr/projets.html">Autres projets</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/fr/glossaire.html">Glossaire</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/fr/apropos.html">À propos</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/fr/contactfr.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__legal-mentions">
+            <p class="footer__legal-mentions__text">Projet réalisé en 2025 dans le cadre d’un exercice pédagogique
+                au département <a class="footer__legal-mentions__link"
+                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">MMI de
+                    Montbéliard</a></p>
+            <a class="footer__legal-mentions__logo-link"
+                href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+                <img class="footer__legal-mentions__logo" src="/assets/icons/logo-mmi.svg" alt="logo MMI">
+            </a>
+
+        </div>
+
+    </footer>
 
 
 </body>

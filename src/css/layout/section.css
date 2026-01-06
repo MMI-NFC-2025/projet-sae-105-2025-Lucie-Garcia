@@ -2,3 +2,15 @@
     margin: 1rem;
     margin-bottom: 3rem;
 }
+
+.section-hero--article1 {
+    background-image: url("/assets/img/hero_art1.avif");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+
+.section-article {
+    margin: 1rem;
+}
