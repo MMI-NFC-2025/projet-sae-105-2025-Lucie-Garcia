@@ -25,3 +25,12 @@
 .glossary {
     padding: 1rem;
 }
+
+#matilda-effect-fr,
+#matilda-effect-en,
+#nasa-fr,
+#nasa-en,
+#apollo-11-en,
+#apollo-11-fr {
+    scroll-margin-top: 150px;
+}

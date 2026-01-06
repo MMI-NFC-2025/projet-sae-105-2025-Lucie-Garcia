@@ -43,3 +43,11 @@
     padding: 1rem;
 
 }
+
+.section-hero--glossary {
+    background: var(--colors-rose-rouge);
+    height: 200px;
+    display: flex;
+    padding: 1rem;
+
+}
