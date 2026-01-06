@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glossary page" />
+    <title>Forgotten Star - Glossary EN</title>
+
+    <!-- links to other files -->
+
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/png" href="/assets/favicon-EO/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-EO/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon-EO/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-EO/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicon-EO/site.webmanifest" />
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__bar">
+            <a href="../en/home.html" class="header__logo-link">
+                <img class="header__logo" src="/assets/icons/Logo-Blanc.svg" alt="logo Forgotten Star">
+            </a>
+            <div class="header__btn">
+                <button class="header__search-btn search-btn" aria-label="search" aria-expanded="false"
+                    aria-controls="searchForm">
+                    <img class="search-btn__icon" src="/assets/icons/loupe.svg" alt="">
+                </button>
+                <button class="header__language-btn language-btn" aria-label="language" aria-expanded="false"
+                    aria-controls="languageMenu">
+                    <img class="language-btn__icon" src="/assets/icons/globe.svg" alt="">
+
+                </button>
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
+                    aria-controls="mainNav">
+                    <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__main-list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article1en.html">Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article2en.html">Women of Science in the Literature</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article3en.html">The Achievements of Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article4en.html">Hidden Figures</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article5en.html">The BU's Item</a>
+                </li>
+            </ul>
+            <ul class="menu__secondary-list">
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/projects.html">Other Projects</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/glossary.html">Glossary</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/aboutme.html">About me</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/contacten.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__search search" id="searchForm" hidden>
+            <form class="search__form" action="#" method="get">
+                <input class="search__input" type="text" id="search-input" name="q" placeholder="type your keywords">
+                <button class="search__submit-btn" type="submit">Search</button>
+            </form>
+
+        </div>
+        <div class="header__language language" id="languageMenu" hidden>
+            <div class="language__triangle"></div>
+            <ul class="language__list">
+                <li class="language__item">
+                    <a class="language__link" href="../en/home.html"
+                        onclick="document.cookie = `nf_lang=en; path=/; SameSite=Strict`">English</a>
+                </li>
+                <li class="language__item">
+                    <a class="language__link" href="../fr/accueil.html"
+                        onclick="document.cookie = `nf_lang=fr; path=/; SameSite=Strict`">Français</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <section class="section-hero section-hero--article1">
+            <div class="section-hero__overlay">
+            </div>
+        </section>
+        <section class="section-article">
+            <h2 class="article-title">Women of science in the literature</h2>
+            <p class="article-intro">In a world where women are too often left out and forgotten, literature gives them
+                a voice by bringing their stories back to life.</p>
+            <article class="article-content">
+                <h4 class="article-subtitle">Hidden Figures” – The book before the movie</h4>
+                <p class="article-text">The bookHidden Figures, written by Margot Lee Shetterly, tells the story of
+                    African American women who worked at NASA and helped make space exploration possible.</p>
+                <p class="article-text">Before this book, very few people knew their names.</p>
+                <p class="article-text">The book came out in September 2016, after six years of writing, and it was
+                    adapted into a movie right after, in the same year.</p>
+                <p class="article-text">Here, literature helps show that these women were talented and brave scientists,
+                    even if they were often invisible at the time.</p>
+                <h5 class="article-subtitle--small">Excerpt from the book :</h5>
+                <blockquote>
+                    <p class="article-quote">“Knowing that only a handful of these 'girls’ had earned the title of
+                        'mathematician’ — a professional label that put them on equal footing with the lowest-level male
+                        employees — the fact that most of the calculators were kept in 'assistant’ positions could only
+                        help the lab’s budget.”</p>
+                </blockquote>
+                <p class="article-quote-author">— Margot Lee Shetterly,<cite> Hidden Figures</cite></p>
+                <button class="article-button">
+                    <a class="article-button-link"
+                        href='https://www.fnac.com/a10240560/Margot-Lee-Shetterly-Les-figures-de-l-ombre'>
+                        → Buy the book
+                    </a>
+                </button>
+            </article>
+            <article class="article-content">
+
+                <img class="article-image" src="/assets/img/art2_img1.avif" alt="open book" loading="lazy">
+                <p class="article-image__legend">Image of a book</p>
+                <h4 class="article-subtitle">The Importance of Storytelling</h4>
+                <p class="article-text">Telling these stories in books or articles matters. It helps bring justice to
+                    those who were forgotten and shows that science was never meant to be just for men.</p>
+                <p class="article-text">In these books, women scientists come back into the light.</p>
+                <p class="article-text">These stories also inspire younger generations and encourage girls to get
+                    interested in math, physics, or engineering.</p>
+            </article>
+            <article class="article-content">
+                <img class="article-image" src="/assets/img/art2_img2.avif" alt="slogan #no more matildas"
+                    loading="lazy">
+                <p class="article-image__legend">Slogan #no more matildas</p>
+                <h4 class="article-subtitle">The “Matildas”</h4>
+                <p class="article-text">This bad habit of society pushing women scientists aside, minimizing them, or
+                    forgetting them has a name: the Matilda Effect.</p>
+                <p class="article-text">Through storytelling, literature can fix these injustices and make long-ignored
+                    talents visible again.</p>
+                <p class="article-text">Today, even though society is changing and trying to make things right, it’s
+                    still important not to forget the women scientists of the past.Books are a perfect way to do that.
+                </p>
+            </article>
+            <h4 class="article-subtitle frise__big-title">Timeline of the Matildas</h4>
+            <h5 class="article-subtitle--small frise__subtitle">Here Are a Few of Them</h5>
+
+            <div class="frise">
+                <div class="frise-item frise-item--rose">
+                    <img class="frise-image frise-image--rose" src="/assets/img/frise_ma_an_pi_pa.avif"
+                        alt="Marie Anne Pierrette Paulze de Lavoisier" loading="lazy">
+                    <div class="frise-text frise-text--rose">
+                        <h6 class="frise-title frise-title--rose">Marie Anne Pierrette Paulze de Lavoisier</h6>
+                        <p class="frise-infos frise-infos--rose">(1758-1836)
+                            Chemist, France</p>
+                        <p class="frise-legend frise-legend--rose">She was an essential collaborator to her husband,
+                            Antoine
+                            Lavoisier</p>
+                    </div>
+                </div>
+                <div class="frise-item frise-item--bleu">
+                    <img class="frise-image frise-image--bleu" src="/assets/img/frise_ma_an.avif" alt="Marie Anning"
+                        loading="lazy">
+                    <div class="frise-text frise-text--bleu">
+                        <h6 class="frise-title frise-title--bleu">Mary Anning</h6>
+                        <p class="frise-infos frise-infos--bleu">(1799-1847)
+                            Paleontologist, Great Britain</p>
+                        <p class="frise-legend frise-legend--bleu">She identified the first skeleton of an ichthyosaur
+                            (dinosaur)</p>
+                    </div>
+                </div>
+                <div class="frise-item frise-item--rose">
+                    <img class="frise-image frise-image--rose" src="/assets/img/frise_ad_lo.avif" alt="Ada Lovelace"
+                        loading="lazy">
+                    <div class="frise-text frise-text--rose">
+                        <h6 class="frise-title frise-title--rose">Ada Lovelace</h6>
+                        <p class="frise-infos frise-infos--rose">(1815-1852)
+                            Great Britain</p>
+                        <p class="frise-legend frise-legend--rose">The very first computer programmer in history
+                        </p>
+                    </div>
+                </div>
+                <div class="frise-item frise-item--bleu">
+                    <img class="frise-image frise-image--bleu" src="/assets/img/frise_ne_ma_st.avif"
+                        alt="Nettie Maria Stevens" loading="lazy">
+                    <div class="frise-text frise-text--bleu">
+                        <h6 class="frise-title frise-title--bleu">Nettie Maria Stevens</h6>
+                        <p class="frise-infos frise-infos--bleu">(1861-1912)
+                            Geneticist, USA</p>
+                        <p class="frise-legend frise-legend--bleu">She discovered the X and Y sex chromosomes</p>
+                    </div>
+                </div>
+                <div class="frise-item frise-item--rose">
+                    <img class="frise-image frise-image--rose" src="/assets/img/frise_li_ma.avif" alt="Lise Maitner"
+                        loading="lazy">
+                    <div class="frise-text frise-text--rose">
+                        <h6 class="frise-title frise-title--rose">Lise Maitner</h6>
+                        <p class="frise-infos frise-infos--rose">(1878-1968)
+                            Nuclear physicist, Austria</p>
+                        <p class="frise-legend frise-legend--rose">She discovered the process of nuclear fission.
+                        </p>
+                    </div>
+                </div>
+                <div class="frise-item frise-item--bleu">
+                    <img class="frise-image frise-image--bleu" src="/assets/img/frise_gr_mu_ho.avif"
+                        alt="Grace Murray Hopper" loading="lazy">
+                    <div class="frise-text frise-text--bleu">
+                        <h6 class="frise-title frise-title--bleu">Grace Murray Hopper</h6>
+                        <p class="frise-infos frise-infos--bleu">(1906-1992)
+                            Computer scientist and U.S. Navy lieutenant, USA</p>
+                        <p class="frise-legend frise-legend--bleu">She developed the first computer compiler</p>
+                    </div>
+                </div>
+                <div class="frise-item frise-item--rose">
+                    <img class="frise-image frise-image--rose" src="/assets/img/frise_he_la.avif" alt="Hedy Lamarr"
+                        loading="lazy">
+                    <div class="frise-text frise-text--rose">
+                        <h6 class="frise-title frise-title--rose">Hedy Lamarr</h6>
+                        <p class="frise-infos frise-infos--rose">(1914-2000)
+                            Inventor and actress, Austria</p>
+                        <p class="frise-legend frise-legend--rose">Besides being a famous actress, she created a system
+                            that became the base for wireless communication like Wi-Fi and GPS.</p>
+                    </div>
+                </div>
+                <div class="frise-item frise-item--bleu">
+                    <img class="frise-image frise-image--bleu" src="/assets/img/frise_ka_jo.avif"
+                        alt="Katherine Johnson" loading="lazy">
+                    <div class="frise-text frise-text--bleu">
+                        <h6 class="frise-title frise-title--bleu">Katherine Johnson</h6>
+                        <p class="frise-infos frise-infos--bleu">(1918-2020)
+                            Computer scientist, mathematician, aerospace engineer, physicist and teacher. USA</p>
+                        <p class="frise-legend frise-legend--bleu"> She calculated NASA mission trajectories by hand.
+                        </p>
+                    </div>
+                </div>
+                <div class="frise-item frise-item--rose">
+                    <img class="frise-image frise-image--rose" src="/assets/img/frise_ro_fr.avif"
+                        alt="Rosalind Franklin" loading="lazy">
+                    <div class="frise-text frise-text--rose">
+                        <h6 class="frise-title frise-title--rose">Rosalind Franklin</h6>
+                        <p class="frise-infos frise-infos--rose">(1920-1958)
+                            Chemist, Great Britain</p>
+                        <p class="frise-legend frise-legend--rose">She discovered the structure of DNA</p>
+                    </div>
+                </div>
+            </div>
+            <p class="article-author">Posted by Lucie Garcia <br>
+                October 14, 2025 at 10:00 a.m.</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo-container">
+            <a href="../en/home.html" class="footer__logo-link">
+                <img class="footer__logo" src="/assets/icons/logo-txt-en.svg" alt="logo Étoile oubliée">
+            </a>
+        </div>
+        <h6 class="footer__titles">INFO</h6>
+        <p class="footer__text">Web site realised by Lucie Garcia, group A1</p>
+        <a class="footer__mail-link" href="mailto:lucie@margar.fr">lucie@margar.fr</a>
+        <h6 class="footer__titles">Follow me</h6>
+        <ul class="footer__social-list">
+            <li class="footer__social-item">
+                <a class="footer__social-link" href="https://discord.gg/TGwCGtmt">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Discord.svg" alt="logo Discord">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.instagram.com/mindeuse?igsh=MThvZW5yejZyeml5bA%3D%3D&utm_source=qr">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Instagram.svg" alt="logo Instagram">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.linkedin.com/in/lucie-garcia-63157638b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    <img class="footer__social-icon" src="/assets/icons/logo-LinkedIn.svg" alt="logo LinkedIn">
+                </a>
+            </li>
+        </ul>
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/projects.html">Other Projects</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/glossary.html">Glossary</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/aboutme.html">About</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/contacten.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__legal-mentions">
+            <p class="footer__legal-mentions__text">Project realised in 2025 as part of an educational exercise at the
+                <a class="footer__legal-mentions__link"
+                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">MMi
+                    department of Montbéliard</a>
+            </p>
+            <a class="footer__legal-mentions__logo-link"
+                href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+                <img class="footer__legal-mentions__logo" src="/assets/icons/logo-mmi.svg" alt="logo MMI">
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
