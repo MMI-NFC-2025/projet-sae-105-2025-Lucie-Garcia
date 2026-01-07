@@ -76,10 +76,25 @@
     position: relative;
 }
 
+.section-hero--article3 {
+    background: url(/assets/img/hero_art3.avif) no-repeat center;
+    background-size: cover;
+    background-position: left;
+    height: 400px;
+    position: relative;
+}
+
 .section-hero--article4 {
     background: url(/assets/img/hero_art4.avif) no-repeat center;
     background-size: cover;
     height: 400px;
+    position: relative;
+}
+
+.section-hero--article5 {
+    background: url(/assets/img/hero_art5.avif) no-repeat center;
+    background-size: cover;
+    height: 230px;
     position: relative;
 }
 

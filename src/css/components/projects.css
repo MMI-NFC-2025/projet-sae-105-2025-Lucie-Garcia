@@ -47,12 +47,6 @@
 }
 
 .project-card__image {
-    background-color: #999;
-    background-image: repeating-linear-gradient(45deg,
-            transparent,
-            transparent 35px,
-            rgba(255, 255, 255, 0.1) 35px,
-            rgba(255, 255, 255, 0.1) 70px);
     position: relative;
     height: 150px;
     display: flex;
@@ -60,6 +54,33 @@
     overflow: hidden;
 }
 
+.pages-cards__imgage--1 {
+    background: url(/assets/img/frise_li_ma.avif) no-repeat;
+    background-size: cover;
+    background-position: top -5rem center;
+}
+
+.pages-cards__imgage--2 {
+    background: url(/assets/img/projet-2.avif) no-repeat;
+    background-size: cover;
+    background-position: top -2rem center;
+}
+
+.pages-cards__imgage--3 {
+    background: url(/assets/img/projet-3.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pages-cards__imgage--4 {
+    background: url(/assets/img/projet-4.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-card__link {
+    text-decoration: none;
+}
 
 
 .project-card__title {
