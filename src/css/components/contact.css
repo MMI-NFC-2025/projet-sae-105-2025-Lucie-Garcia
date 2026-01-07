@@ -80,7 +80,7 @@
     border: none;
     border-radius: 5px;
     font-family: var(--fonts-montserrat);
-    font-size: var(--sizes-description);
+    font-size: var(--sizes-descriptions);
     font-weight: 700;
     cursor: pointer;
     transition: opacity 0.3s;
@@ -111,7 +111,7 @@
 
 .contact-direct__email {
     font-family: var(--fonts-montserrat);
-    font-size: var(--sizes-description);
+    font-size: var(--sizes-descriptions);
     color: var(--colors-noir);
     text-decoration: underline;
 }

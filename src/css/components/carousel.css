@@ -3,7 +3,6 @@
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     gap: 1.5rem;
-    padding: 2rem;
     scroll-behavior: smooth;
     justify-content: flex-start;
     padding: 5rem;
