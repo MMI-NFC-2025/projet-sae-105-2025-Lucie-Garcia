@@ -37,36 +37,29 @@
     margin: 1rem;
 }
 
-.hero--contact {
+.hero-rose {
+    background-color: var(--colors-rose-rouge);
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-rose {
     background: var(--colors-rose-rouge);
     height: 250px;
     align-items: center;
+    display: flex;
+    padding: 1rem;
 }
 
-.hero--contact .hero__title {
+.hero-rose__title {
     top: 0;
+    margin: auto;
 }
 
-.hero--contact {
-    height: 250px;
-    align-items: center;
-}
 
-.section-hero--contact {
-    background: var(--colors-rose-rouge);
-    height: 200px;
-    display: flex;
-    padding: 1rem;
-
-}
-
-.section-hero--glossary {
-    background: var(--colors-rose-rouge);
-    height: 200px;
-    display: flex;
-    padding: 1rem;
-
-}
 
 .section-hero--article1 {
     background: url(/assets/img/hero_art1.avif) no-repeat center;

@@ -22,8 +22,15 @@
     text-align: right;
 }
 
+
+
 .article-image {
     width: 100%;
     height: auto;
     margin-top: 4rem;
+}
+
+.about {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
