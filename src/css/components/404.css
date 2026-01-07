@@ -1,0 +1,7 @@
+.cat104__title {
+    font-family: var(--fonts-oswald);
+    font-size: var(--sizes-grands-titres);
+    font-weight: 700;
+    color: var(--colors-rose-rouge);
+    margin: 4rem 1rem;
+}
