@@ -4,16 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Language selection • Sélection de la langue" />
+    <title>Forgotten Star • Language</title>
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/favicon-EO/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-EO/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon-EO/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-EO/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Forgotten Star" />
+    <link rel="manifest" href="/assets/favicon-EO/site.webmanifest" />
 </head>
 
-<body>
-    <nav>
-        <ul>
-            <li><a onclick="document.cookie = 'nf_lang=en; path=/'" href="/en/home.html">Home in English</a></li>
-            <li><a onclick="document.cookie = 'nf_lang=fr; path=/'" href="/fr/accueil.html">Accueil en Français</a></li>
-        </ul>
-    </nav>
+<body class="lang-page">
+    <header class="lang-landing__hero">
+        <h1 class="lang-landing__title">Forgotten Star</h1>
+    </header>
+    <main class="lang-landing" role="main">
+
+        <p class="lang-landing__subtitle">Choose your language • Sélectionnez votre langue</p>
+
+        <div class="lang-landing__options" role="list">
+            <a class="lang-option lang-option--en" role="listitem" href="/en/home.html"
+                onclick="document.cookie = 'nf_lang=en; path=/'" aria-label="English">
+                <span class="lang-option__label">English</span>
+                <span class="lang-option__desc">Home in English</span>
+            </a>
+
+            <a class="lang-option lang-option--fr" role="listitem" href="/fr/accueil.html"
+                onclick="document.cookie = 'nf_lang=fr; path=/'" aria-label="Français">
+                <span class="lang-option__label">Français</span>
+                <span class="lang-option__desc">Accueil en Français</span>
+            </a>
+        </div>
+    </main>
+
 </body>
 
 </html>

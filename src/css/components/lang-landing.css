@@ -1,0 +1,97 @@
+body.lang-page {
+    margin-top: 0;
+    background: var(--colors-bleu-fonce);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lang-landing {
+    flex: 1;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: start;
+}
+
+.lang-landing__title {
+
+    color: var(--colors-blanc);
+    margin: 2rem 1rem 0.5rem;
+}
+
+.lang-landing__subtitle {
+    text-align: center;
+    color: var(--colors-bleu-clair);
+    font-family: var(--fonts-montserrat);
+    margin: 0 1rem 1.25rem;
+}
+
+.lang-landing__options {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 640px;
+    margin: 0 auto 2rem;
+}
+
+.lang-option {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 160px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 1.25rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    overflow: hidden;
+}
+
+.lang-option:focus-visible {
+    outline: 3px solid var(--colors-rose);
+    outline-offset: 4px;
+}
+
+.lang-option:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3);
+}
+
+.lang-option::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(120% 120% at 100% 0%, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0) 60%),
+        radial-gradient(120% 120% at 0% 100%, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0) 60%);
+    mix-blend-mode: screen;
+    pointer-events: none;
+}
+
+.lang-option__label {
+    color: var(--colors-blanc);
+    font-family: var(--fonts-oswald);
+    font-size: var(--sizes-titres);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 0 0.5rem 0;
+}
+
+.lang-option__desc {
+    color: var(--colors-blanc);
+    font-family: var(--fonts-montserrat);
+    font-size: var(--sizes-descriptions);
+    opacity: 0.95;
+    margin: 0;
+}
+
+.lang-option--en {
+    background: linear-gradient(135deg, var(--colors-bleu), var(--colors-bleu-clair));
+}
+
+.lang-option--fr {
+    background: linear-gradient(135deg, var(--colors-rose-rouge), var(--colors-rose));
+}
