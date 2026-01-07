@@ -21,3 +21,9 @@
     margin-top: 5rem;
     text-align: right;
 }
+
+.article-image {
+    width: 100%;
+    height: auto;
+    margin-top: 4rem
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hidden figures, the movie" />
+    <title>Forgotten Star - Hidden Figures</title>
+
+    <!-- links to other files -->
+
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/png" href="/assets/favicon-EO/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-EO/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon-EO/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-EO/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicon-EO/site.webmanifest" />
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__bar">
+            <a href="../en/home.html" class="header__logo-link">
+                <img class="header__logo" src="/assets/icons/Logo-Blanc.svg" alt="logo Forgotten Star">
+            </a>
+            <div class="header__btn">
+                <button class="header__search-btn search-btn" aria-label="search" aria-expanded="false"
+                    aria-controls="searchForm">
+                    <img class="search-btn__icon" src="/assets/icons/loupe.svg" alt="">
+                </button>
+                <button class="header__language-btn language-btn" aria-label="language" aria-expanded="false"
+                    aria-controls="languageMenu">
+                    <img class="language-btn__icon" src="/assets/icons/globe.svg" alt="">
+
+                </button>
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
+                    aria-controls="mainNav">
+                    <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+                    <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__main-list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article1en.html">Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article2en.html">Women of Science in the Literature</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article3en.html">The Achievements of Katherine Johnson</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article4en.html">Hidden Figures</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/article5en.html">The BU's Item</a>
+                </li>
+            </ul>
+            <ul class="menu__secondary-list">
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/projects.html">Other Projects</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/glossary.html">Glossary</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/aboutme.html">About me</a>
+                </li>
+                <li class="menu__secondary-item">
+                    <a class="menu__secondary-link" href="/en/contacten.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__search search" id="searchForm" hidden>
+            <form class="search__form" action="#" method="get">
+                <input class="search__input" type="text" id="search-input" name="q" placeholder="type your keywords">
+                <button class="search__submit-btn" type="submit">Search</button>
+            </form>
+
+        </div>
+        <div class="header__language language" id="languageMenu" hidden>
+            <div class="language__triangle"></div>
+            <ul class="language__list">
+                <li class="language__item">
+                    <a class="language__link" href="../en/home.html"
+                        onclick="document.cookie = `nf_lang=en; path=/; SameSite=Strict`">English</a>
+                </li>
+                <li class="language__item">
+                    <a class="language__link" href="../fr/accueil.html"
+                        onclick="document.cookie = `nf_lang=fr; path=/; SameSite=Strict`">Français</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-hero section-hero--article4">
+            <div class="section-hero__overlay">
+            </div>
+        </section>
+        <section class="section-article">
+            <h2 class="article-title">Hidden Figures</h2>
+            <p class="article-intro">Released in 2016, Hidden Figures gave justice to three Black women from NASA.
+                Thanks to cinema, their story finally reached the stars.</p>
+            <h4 class="article-subtitle">Movie trailer</h4>
+            <section class="article-video-container">
+                <video class="article-video" width="560" height="315" controls>
+                    <source
+                        src="/assets/video/Les Figures de l'Ombre - Bande annonce internationale [Officielle] VOST HD.mp4"
+                        type="video/mp4">
+                </video>
+            </section>
+            <button class="article-video-link">
+                <a class="article-video-link__text" href="https://youtu.be/YhOI3idTasA?si=2U8fNN371LA779Hz"
+                    target="_blank">YouTube link</a>
+            </button>
+            <h4 class="article-subtitle">Short summary</h4>
+            <p class="article-text">Hidden Figures (2016) tells the story of three African American women: Katherine
+                Johnson, Dorothy Vaughan, and Mary Jackson.</p>
+            <p class="article-text">These women worked at NASA in the 1960s, during the space race and a time of racial
+                segregation in the United States.</p>
+            <p class="article-text">Brilliant mathematicians and engineers, they played a key role in the success of
+                early American space missions, especially John Glenn’s, the first American to orbit the Earth.</p>
+            <p class="article-text">The film highlights their intelligence, determination, and fight against racism and
+                sexism, while celebrating their long-overlooked contributions to the history of science and space
+                exploration.</p>
+            <img class="article-image" src="/assets/img/art4_img1.avif" alt="Poster of the movie Hidden Figures">
+            <p class="article-image__legend">Poster of the movie Hidden Figures</p>
+            <h4 class="article-subtitle">Global impact</h4>
+            <p class="article-text">Hidden Figures is more than just a movie, it’s a symbol.It inspired many young
+                girls to study science and helped change how women are represented in technical fields.</p>
+            <p class="article-text">The film received three Oscar nominations and great reviews from critics.</p>
+            <p class="article-text">Most importantly, it introduced millions of viewers to Katherine Johnson, Dorothy
+                Vaughan, and Mary Jackson, names that many people had never heard before.</p>
+            <img class="article-image" src="/assets/img/art4_img2.avif" alt="SAG Awards ceremony">
+            <p class="article-image__legend">SAG Awards ceremony</p>
+            <h4 class="article-subtitle">Cinema as a tool for recognition</h4>
+            <p class="article-text">Thanks to the movie, Katherine Johnson, Dorothy Vaughan, and Mary Jackson finally
+                received worldwide recognition.</p>
+            <p class="article-text">Audiences realized that NASA’s greatest achievements were also made possible by
+                these women.</p>
+            <p class="article-text">Hollywood played an essential role here, helping to set history straight.</p>
+            <img class="article-image" src="/assets/img/art4_img3.avif"
+                alt="The film's actresses with the real Katherine Johnson">
+            <p class="article-image__legend">Katherine Johnson alongside the film's actresses at the 2017 Oscars</p>
+            <h4 class="article-subtitle">Similar movies</h4>
+            <div class="article-films__carousel">
+                <section class="article-film__item article-film__item--1">
+                    <a class="article-film__link" href="https://www.allocine.fr/film/fichefilm_gen_cfilm=257304.html">
+                        <img class="article-film__img" src="/assets/img/film_marie_curie.avif"
+                            alt="Poster of the movie Marie Curie">
+                    </a>
+                </section>
+                <section class="article-film__item article-film__item--2">
+                    <a class="article-film__link" href="https://www.allocine.fr/film/fichefilm_gen_cfilm=254043.html">
+                        <img class="article-film__img" src="/assets/img/film_radioactive.avif"
+                            alt="Poster of the movie Radioactive">
+                    </a>
+                </section>
+                <section class="article-film__item article-film__item--3">
+                    <a class="article-film__link" href="https://www.allocine.fr/film/fichefilm_gen_cfilm=270485.html">
+                        <img class="article-film__img" src="/assets/img/film_ammonite.avif"
+                            alt="Poster of the movie Ammonite">
+                    </a>
+                </section>
+                <section class="article-film__item article-film__item--4">
+                    <a class="article-film__link" href="https://www.allocine.fr/film/fichefilm_gen_cfilm=257984.html">
+                        <img class="article-film__img" src="/assets/img/film_bombshell.avif"
+                            alt="Poster of the movie Bombshell"></a>
+                </section>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn carousel-btn--prev" aria-label="Film précédent">
+                    ←
+                </button>
+                <button class="carousel-btn carousel-btn--next" aria-label="Film suivant">
+                    →
+                </button>
+            </div>
+            <p class="article-author">Published by Lucie Garcia<br>
+                On October 20, 2025 at 10:00 AM</p>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo-container">
+            <a href="../en/home.html" class="footer__logo-link">
+                <img class="footer__logo" src="/assets/icons/logo-txt-en.svg" alt="logo Étoile oubliée">
+            </a>
+        </div>
+        <h6 class="footer__titles">INFO</h6>
+        <p class="footer__text">Web site realised by Lucie Garcia, group A1</p>
+        <a class="footer__mail-link" href="mailto:lucie@margar.fr">lucie@margar.fr</a>
+        <h6 class="footer__titles">Follow me</h6>
+        <ul class="footer__social-list">
+            <li class="footer__social-item">
+                <a class="footer__social-link" href="https://discord.gg/TGwCGtmt">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Discord.svg" alt="logo Discord">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.instagram.com/mindeuse?igsh=MThvZW5yejZyeml5bA%3D%3D&utm_source=qr">
+                    <img class="footer__social-icon" src="/assets/icons/logo-Instagram.svg" alt="logo Instagram">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a class="footer__social-link"
+                    href="https://www.linkedin.com/in/lucie-garcia-63157638b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                    <img class="footer__social-icon" src="/assets/icons/logo-LinkedIn.svg" alt="logo LinkedIn">
+                </a>
+            </li>
+        </ul>
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/projects.html">Other Projects</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/glossary.html">Glossary</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/aboutme.html">About</a>
+                </li>
+                <li class="footer__nav-item">
+                    <p class="footer__nav-divider">|</p>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="/en/contacten.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__legal-mentions">
+            <p class="footer__legal-mentions__text">Project realised in 2025 as part of an educational exercise at the
+                <a class="footer__legal-mentions__link"
+                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">MMi
+                    department of Montbéliard</a>
+            </p>
+            <a class="footer__legal-mentions__logo-link"
+                href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+                <img class="footer__legal-mentions__logo" src="/assets/icons/logo-mmi.svg" alt="logo MMI">
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

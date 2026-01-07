@@ -62,3 +62,28 @@
     line-height: normal;
 
 }
+
+.article-video-link {
+    background-color: var(--colors-rose-rouge);
+    color: var(--colors-blanc);
+    border: none;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.article-video-link__text {
+    text-decoration: none;
+    color: var(--colors-blanc);
+    font-family: var(--fonts-montserrat);
+    font-size: var(--sizes-petits-textes-gras);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
